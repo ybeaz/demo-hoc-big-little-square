@@ -20,7 +20,7 @@ const keysTransformer = require('ts-transformer-keys/transformer').default;
 
 module.exports = {
   entry: {
-    JsItemCarousel: ['./src/index.js'], // ['babel-polyfill', './index.js', './index.tsx']
+    hocBigLittleSquares: ['./src/index.js'], // ['babel-polyfill', './index.js', './index.tsx']
   },
   output: {
     path: path.resolve(__dirname, 'dist/dist'),

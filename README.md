@@ -2,7 +2,7 @@
 
 
 ## Link to a working example
-[JS-Item(s)-Pagination-Carousel](https://r1.userto.com/demo-js-item-carousel.html/)
+[Link to React HOC demo example](https://r1.userto.com/demo-hoc-big-little-square.html)
 
 
 ## Used Tech Stack
@@ -13,14 +13,11 @@
 * Build and automation Tools: Webpack
 * Unit testing: Jest, Enzyme (not included)
 * Lints: eslint, tslint
-* Other technologies: BEM methodology, Restful API
-* File formats: Jsx, ts, JSON, less, js
+* File formats: Jsx, ts, less, js
 
 
 ## Task Description
-Using the provided json file, given an input of products, design a page that:
-* Consumes the [JSON](https://r1.userto.com/dist/jsItemCarousel.json) of products
-* Builds the product details page with all products
-* Displays the product details, including price, product name and the main hero image
-* Interacts intuitively; if you click on the image, you should see an overlay with a carousal of all thumbnail images
+  - Little square should be horizontally + vertically centered inside BigSquare. 
+  - This should work no matter how big little square is.
+  - They should both take backgroundColor props
 
